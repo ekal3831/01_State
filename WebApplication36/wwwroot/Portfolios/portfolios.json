@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": ".NET",
+    "description": "ASP.NET Core",
+    "img": "/Portfolios/images/Blazor.png"
+  },
+  {
+    "id": 2,
+    "title": "JAVA",
+    "description": "Spring Boot",
+    "img": "/Portfolios/images/Spring.png"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript",
+    "description": "React",
+    "img": "/Portfolios/images/React.png"
+  },
+  {
+    "id": 4,
+    "title": "Azure DevOps",
+    "description": "Azure and Azure DevOps",
+    "img": "/Portfolios/images/Azure.png"
+  }
+]
+

@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApplication36.Services;
 
 namespace WebApplication36
 {
@@ -24,6 +25,7 @@ namespace WebApplication36
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages(); // 
+            services.AddTransient<PortfolioserviceJsonFile>(); // DI Container : index - var - portfolio서비스 등록 
         }
 
 
