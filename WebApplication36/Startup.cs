@@ -24,7 +24,9 @@ namespace WebApplication36
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
             services.AddRazorPages(); // 
+            services.AddServerSideBlazor(); // 블레이저 컴포넌트 사용시 
             services.AddTransient<PortfolioserviceJsonFile>(); // DI Container : index - var - portfolio서비스 등록 
         }
 
@@ -56,6 +58,7 @@ namespace WebApplication36
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages(); //
+                endpoints.MapBlazorHub(); // 블레이저 
             });
         }
     }
